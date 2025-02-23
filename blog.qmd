@@ -1,0 +1,24 @@
+<!-- <style>
+.quarto-listing-table img {
+    width: 100px;  /* or whatever width you prefer */
+    height: auto;  /* maintains aspect ratio */
+    object-fit: cover;  /* ensures image fills the space */
+}
+</style> -->
+
+---
+title: "The Blog"
+subtitle: "Latest research and development from the AI Centre"
+page-layout: full
+listing:
+  contents: posts
+  sort: "date desc"
+  type: table
+  categories: true
+  sort-ui: false
+  filter-ui: false
+# page-layout: full
+title-block-banner: false
+---
+
+

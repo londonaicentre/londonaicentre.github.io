@@ -1,0 +1,51 @@
+# firstname used for ordering
+
+## PROGRAMME LEADERSHIP
+# - image: "/people/pics/jzhang.jpg"
+#   title: "**Dr. Joe Zhang**"
+#   subtitle: "Head of Data Science"
+#   description: "_Technical lead, data scientist / engineer, intensive care specialist doctor, ex-Arcturis Data, ex-Huma_"
+#   firstname: "Zhang"
+#   categories: [Programme & SLT]
+- image: "/people/pics/jteo.png"
+  title: "**Prof. James Teo**"
+  subtitle: "CMO"
+  description: "_Chief Medical Officer, Professor of Neurology_"
+  firstname: "James"
+  categories: [Programme & SLT, NLP & Analytics, Population Health, Real-World Data]
+- image: "/people/pics/shachlili.png"
+  title: "**Sigal Hachlili**"
+  subtitle: "COO"
+  description: "_Director of Data, AI, Digital @ GSTT_"
+  firstname: "Sigal"
+  categories: [Programme & SLT]
+# - image: "/people/pics/mmodat.png"
+#   title: "**Dr. Marc Modat**"
+#   subtitle: "CRIO"
+#   description: "_Reader (Computational Imaging) @ KCL, Head of Data Science @ Proximie_"
+#   firstname: "Hachliili"
+#   categories: [Programme & SLT]
+- image: "/people/pics/jch.png"
+  title: "**Jawad Chaudhry**"
+  subtitle: "Programme Manager"
+  description: "_AI centre programme manager_"
+  firstname: "Jawad"
+  categories: [Programme & SLT]
+- image: "/people/pics/llaw.png"
+  title: "**Lisa Law**"
+  subtitle: "Associate Project Manager"
+  description: "_Project manager_"
+  firstname: "Lisa"
+  categories: [Programme & SLT]
+- image: "/people/pics/sourselin.png"
+  title: "**Prof. Seb Ourselin**"
+  subtitle: "AI Centre Director"
+  description: "_Director @ AIC, Director @ LIHE, Head of School @ KCL_"
+  firstname: "Sebastian"
+  categories: [Programme & SLT]
+- image: "/people/pics/jcardoso.png"
+  title: "**Dr. Jorge Cardoso**"
+  subtitle: "CTO"
+  description: "_Reader (Medical AI) @ KCL_"
+  firstname: "Jorge"
+  categories: [Programme & SLT, Multi-Modal Data]

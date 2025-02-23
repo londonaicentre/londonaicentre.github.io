@@ -1,0 +1,141 @@
+# firstname used for ordering
+
+# LEADS
+## REAL-WORLD DATA
+- image: "/people/pics/ladams.png"
+  title: "**Dr. Lawrence Adams**"
+  subtitle: "Lead Analytics Engineer"
+  description: "_Data engineer / scientist, medical doctor, ex-Arcturis Data_"
+  firstname: "Lawrence"
+  categories: [Real-World Data, Population Health]
+
+## NLP & ANALYTICS
+- image: "/people/pics/ashek.png"
+  title: "**Dr. Anthony Shek**"
+  subtitle: "Lead NLP Engineer"
+  description: "_NLP engineer, software engineer, neuroscientist_"
+  firstname: "Anthony"
+  categories: [NLP & Analytics]
+
+## MULTI-MODAL DATA
+- image: "/people/pics/hdrake.png"
+  title: "**Haleema Drake**"
+  subtitle: "Lead Data Engineer (Multi-Modal)"
+  description: "_Data engineer, computer scientist, devops_"
+  firstname: "Haleema"
+  categories: [Multi-Modal Data]
+
+## POPULATION HEALTH SCIENCE
+- image: "/people/pics/iweinberg.png"
+  title: "**Dr. Isobel Weinberg**"
+  subtitle: "Population Health Science Lead"
+  description: "_ML engineer, data scientist, medical doctor, ex-BA, ex-Faculty AI_"
+  firstname: "Isobel"
+  categories: [Population Health]
+
+## PROGRAMME LEADERSHIP
+- image: "/people/pics/jzhang.jpg"
+  title: "**Dr. Joe Zhang**"
+  subtitle: "Head of Data Science"
+  description: "_Technical lead, data scientist / engineer, intensive care specialist doctor, ex-Arcturis Data, ex-Huma_"
+  firstname: "Joe"
+  categories: [Programme & SLT, Real-World Data, Multi-Modal Data, NLP & Analytics, Population Health]
+- image: "/people/pics/mmodat.png"
+  title: "**Dr. Marc Modat**"
+  subtitle: "CRIO"
+  description: "_Reader (Computational Imaging) @ KCL, Head of Data Science @ Proximie_"
+  firstname: "Marc"
+  categories: [Programme & SLT, Multi-Modal Data]
+
+# DEVELOPERS
+## REAL-WORLD DATA
+- image: "/people/pics/ejin.jpg"
+  title: "**Dr. Emily Jin**"
+  subtitle: "Senior Data Scientist"
+  description: "_Data scientist, clinical informatics, medical doctor, ex-Medpace_"
+  firstname: "Emily"
+  categories: [Real-World Data]
+- image: "/people/pics/mac.png"
+  title: "**Mac Fernandes**"
+  subtitle: "Data Engineer / Analyst"
+  description: "_Data engineer, clinical data analyst_"
+  firstname: "Macanroe"
+  categories: [Real-World Data]
+- image: "/people/pics/sjones.png"
+  title: "**Steph Jones**"
+  subtitle: "Senior Analytics Engineer"
+  description: "_Data engineer, clinical pharmacist & genomic medicine, ex-Our Future Health, ex-SciBite_"
+  firstname: "Stephanie"
+  categories: [Real-World Data]
+- image: "/people/pics/sratkai.png"
+  title: "**Sophie Ratkai**"
+  subtitle: "Clinical Scientist Lead (Genomics AI)"
+  description: "_Software engineer, clinical scientist, bioinformatics_"
+  firstname: "Sophie"
+  categories: [Real-World Data]
+- image: "/people/pics/thla.png"
+  title: "**Dr. Teddy Hla**"
+  subtitle: "Clinical Data Science Fellow"
+  description: "_Data scientist, intensive care specialist doctor_"
+  firstname: "Teddy"
+  categories: [Real-World Data]
+
+## NLP & ANALYTICS
+- image: "/people/pics/npinnock.png"
+  title: "**Nathan Pinnock**"
+  subtitle: "Data Scientist"
+  description: "_Data scientist, NLP analyst_"
+  firstname: "Nathan"
+  categories: [NLP & Analytics]
+- image: "/people/pics/akiemes.png"
+  title: "**Dr. Amanda Kiemes**"
+  subtitle: "Senior Data Analyst"
+  description: "_Data scientist, neuroscientist, ex-Stratenym_"
+  firstname: "Amanda"
+  categories: [NLP & Analytics]
+- image: "/people/pics/voliynyk.png"
+  title: "**Vitaliy Oliynyk**"
+  subtitle: "Senior Developer"
+  description: "_Software developer, infrastructure engineer_"
+  firstname: "Vitaliy"
+  categories: [NLP & Analytics]
+
+## MULTI-MODAL DATA
+- image: "/people/pics/vfernandez.png"
+  title: "**Dr. Virginia Fernandez**"
+  subtitle: "Senior AI Engineer"
+  description: "_AI engineer, computer vision, generative modelling, ex-Siemens Healthineers_"
+  firstname: "Virginia"
+  categories: [Multi-Modal Data]
+- image: "/people/pics/abagur.png"
+  title: "**Dr. Alex Triay Bagur**"
+  subtitle: "Senior AI Engineer"
+  description: "_AI engineer, software engineer, computer vision, ex-Perspectum_"
+  firstname: "Alex"
+  categories: [Multi-Modal Data]
+- image: "/people/pics/rdias.png"
+  title: "**Dr. Rafael Garcia-Dias**"
+  subtitle: "Senior AI Engineer"
+  description: "_AI engineer, software engineer, ex-Floe, ex-Monzo_"
+  firstname: "Rafa"
+  categories: [Multi-Modal Data]
+- image: "/people/pics/pwright.png"
+  title: "**Dr. Paul Wright**"
+  subtitle: "Imaging Data Lead"
+  description: "_Software engineer, computer vision, neuroimaging_"
+  firstname: "Paul"
+  categories: [Multi-Modal Data]
+
+## POPULATION HEALTH SCIENCE
+- image: "/people/pics/dstein.png"
+  title: "**Dr. Dan Stein**"
+  subtitle: "Clinical Data Science Fellow"
+  description: "_Data scientist, medical specialist doctor_"
+  firstname: "Dan"
+  categories: [Population Health]
+- image: "/people/pics/jsaund.png"
+  title: "**Dr. Jasjot Saund**"
+  subtitle: "Clinical Data Science Fellow"
+  description: "_Data scientist, public health specialist doctor_"
+  firstname: "Jasjot"
+  categories: [Population Health]

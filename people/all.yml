@@ -1,0 +1,167 @@
+# lastname used for ordering
+
+## REAL-WORLD DATA
+- image: "/people/pics/ladams.png"
+  title: "**Dr. Lawrence Adams**"
+  subtitle: "Lead Analytics Engineer"
+  description: "_Data engineer / scientist, medical doctor, ex-Arcturis Data_"
+  lastname: "Adams"
+  categories: [Real-World Data]
+- image: "/people/pics/ejin.jpg"
+  title: "**Dr. Emily Jin**"
+  subtitle: "Senior Data Scientist"
+  description: "_Data scientist, clinical informatics, medical doctor, ex-Medpace_"
+  lastname: "Jin"
+  categories: [Real-World Data]
+- image: "/people/pics/mac.png"
+  title: "**Mac Fernandes**"
+  subtitle: "Data Engineer / Analyst"
+  description: "_Data engineer, clinical data analyst_"
+  lastname: "Fernandes"
+  categories: [Real-World Data]
+- image: "/people/pics/sjones.png"
+  title: "**Steph Jones**"
+  subtitle: "Senior Analytics Engineer"
+  description: "_Data engineer, clinical pharmacist & genomic medicine, ex-Our Future Health, ex-SciBite_"
+  lastname: "Jones"
+  categories: [Real-World Data]
+- image: "/people/pics/sratkai.png"
+  title: "**Sophie Ratkai**"
+  subtitle: "Clinical Scientist Lead (Genomics AI)"
+  description: "_Software engineer, clinical scientist, bioinformatics_"
+  lastname: "Ratkai"
+  categories: [Real-World Data]
+- image: "/people/pics/thla.png"
+  title: "**Dr. Teddy Hla**"
+  subtitle: "Senior Clinical Data Scientist"
+  description: "_Data scientist, intensive care specialist doctor_"
+  lastname: "Hla"
+  categories: [Real-World Data]
+
+## NLP & ANALYTICS
+- image: "/people/pics/ashek.png"
+  title: "**Dr. Anthony Shek**"
+  subtitle: "Lead NLP Engineer"
+  description: "_NLP engineer, software engineer, neuroscientist_"
+  lastname: "Shek"
+  categories: [NLP & Analytics]
+- image: "/people/pics/npinnock.png"
+  title: "**Nathan Pinnock**"
+  subtitle: "Data Scientist"
+  description: "_Data scientist, NLP analyst_"
+  lastname: "Jin"
+  categories: [NLP & Analytics]
+- image: "/people/pics/akiemes.png"
+  title: "**Dr. Amanda Kiemes**"
+  subtitle: "Senior Data Analyst"
+  description: "_Data scientist, neuroscientist, ex-Stratenym_"
+  lastname: "Kiemes"
+  categories: [NLP & Analytics]
+- image: "/people/pics/voliynyk.png"
+  title: "**Vitaliy Oliynyk**"
+  subtitle: "Senior Developer"
+  description: "_Software developer, infrastructure engineer_"
+  lastname: "Oliynyk"
+  categories: [NLP & Analytics]
+
+## MULTI-MODAL DATA
+- image: "/people/pics/hdrake.png"
+  title: "**Haleema Drake**"
+  subtitle: "Lead Data Engineer (Multi-Modal)"
+  description: "_Data engineer, computer scientist, devops_"
+  lastname: "Drake"
+  categories: [Multi-Modal Data]
+- image: "/people/pics/vfernandez.png"
+  title: "**Dr. Virginia Fernandez**"
+  subtitle: "Senior AI Engineer"
+  description: "_AI engineer, computer vision, generative modelling, ex-Siemens Healthineers_"
+  lastname: "Jin"
+  categories: [Multi-Modal Data]
+- image: "/people/pics/abagur.png"
+  title: "**Dr. Alex Triay Bagur**"
+  subtitle: "Senior AI Engineer"
+  description: "_AI engineer, software engineer, computer vision, ex-Perspectum_"
+  lastname: "Bagur"
+  categories: [Multi-Modal Data]
+- image: "/people/pics/rdias.png"
+  title: "**Dr. Rafael Garcia-Dias**"
+  subtitle: "Senior AI Engineer"
+  description: "_AI engineer, software engineer, ex-Floe, ex-Monzo_"
+  lastname: "Garcia"
+  categories: [Multi-Modal Data]
+- image: "/people/pics/pwright.png"
+  title: "**Dr. Paul Wright**"
+  subtitle: "Imaging Data Lead"
+  description: "_Software engineer, computer vision, neuroimaging_"
+  lastname: "Wright"
+  categories: [Multi-Modal Data]
+
+## POPULATION HEALTH SCIENCE
+- image: "/people/pics/iweinberg.png"
+  title: "**Dr. Isobel Weinberg**"
+  subtitle: "Population Health Science Lead"
+  description: "_ML engineer, data scientist, medical doctor, ex-BA, ex-Faculty AI_"
+  lastname: "Weinberg"
+  categories: [Population Health]
+- image: "/people/pics/dstein.png"
+  title: "**Dr. Dan Stein**"
+  subtitle: "Senior Clinical Data Scientist"
+  description: "_Data scientist, medical specialist doctor_"
+  lastname: "Stein"
+  categories: [Population Health]
+- image: "/people/pics/jsaund.png"
+  title: "**Dr. Jasjot Saund**"
+  subtitle: "Senior Clinical Data Scientist"
+  description: "_Data scientist, public health specialist doctor_"
+  lastname: "Saund"
+  categories: [Population Health]
+
+## PROGRAMME LEADERSHIP
+- image: "/people/pics/jzhang.jpg"
+  title: "**Dr. Joe Zhang**"
+  subtitle: "Head of Data Science"
+  description: "_Technical lead, data scientist / engineer, intensive care specialist doctor, ex-Arcturis Data, ex-Huma_"
+  lastname: "Zhang"
+  categories: [Programme & SLT]
+- image: "/people/pics/jteo.png"
+  title: "**Prof. James Teo**"
+  subtitle: "CMO"
+  description: "_Chief Medical Officer, Professor of Neurology_"
+  lastname: "Teo"
+  categories: [Programme & SLT]
+- image: "/people/pics/shachlili.png"
+  title: "**Sigal Hachlili**"
+  subtitle: "COO"
+  description: "_Director of Data, AI, Digital @ GSTT_"
+  lastname: "Hachliili"
+  categories: [Programme & SLT]
+- image: "/people/pics/mmodat.png"
+  title: "**Dr. Marc Modat**"
+  subtitle: "CRIO"
+  description: "_Reader (Computational Imaging) @ KCL, Head of Data Science @ Proximie_"
+  lastname: "Hachliili"
+  categories: [Programme & SLT]
+- image: "/people/pics/jcardoso.png"
+  title: "**Dr. Jorge Cardoso**"
+  subtitle: "CTO"
+  description: "_Reader (Medical AI) @ KCL_"
+  lastname: "Hachliili"
+  categories: [Programme & SLT]
+- image: "/people/pics/jch.png"
+  title: "**Jawad Chaudhry**"
+  subtitle: "Programme Manager"
+  description: "_AI centre programme manager_"
+  lastname: "Chaudhry"
+  categories: [Programme & SLT]
+- image: "/people/pics/llaw.png"
+  title: "**Lisa Law**"
+  subtitle: "Associate Project Manager"
+  description: "_Project manager_"
+  lastname: "Law"
+  categories: [Programme & SLT]
+- image: "/people/pics/sourselin.png"
+  title: "**Prof. Seb Ourselin**"
+  subtitle: "AI Centre Director"
+  description: "_Director @ AIC, Director @ LIHE, Head of School @ KCL_"
+  lastname: "Ourselin"
+  categories: [Programme & SLT]

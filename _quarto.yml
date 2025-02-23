@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "AI Centre for VBH"
+  navbar:
+    logo: "logos/robot.png"
+    background: light
+    left:
+      - href: index.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: blog.qmd
+        text: Blog
+      - href: team.qmd
+        text: Team
+    right:
+    - icon: linkedin
+      href: https://www.linkedin.com/company/ai4vbh/
+    - icon: github
+      href: https://github.com/londonaicentre
+    - icon: info-circle-fill
+      href: https://www.aicentre.co.uk/
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

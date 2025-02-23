@@ -1,0 +1,23 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/haystack/index.html",
+      "/projects/londonsde-phm/index.html",
+      "/projects/genomicsai/index.html",
+      "/projects/flip/index.html",
+      "/projects/londonsde-omop/index.html"
+    ]
+  },
+  {
+    "listing": "/team.html",
+    "items": []
+  }
+]

@@ -1,0 +1,51 @@
+---
+title: "Our People"
+subtitle: "Our engineers, scientists, and clinician data SMEs drive advancements through deep domain knowledge and incredible technical expertise"
+<!-- page-layout: full -->
+listing:
+- id: team-member
+  sort: "firstname asc"
+  field-display-names:
+    title: "Name"
+    subtitle: "Role"
+  sort-ui: false
+  filter-ui: false
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: left
+  grid-columns: 4
+  image-height: 160px
+  categories: true
+  page-size: 100
+  contents:
+    - /people/team.yml
+
+- id: prog-member
+  sort: "firstname asc"
+  field-display-names:
+    title: "Name"
+    subtitle: "Role"
+  sort-ui: false
+  filter-ui: false
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: left
+  grid-columns: 4
+  image-height: 160px
+  categories: true
+  page-size: 100
+  contents:
+    - /people/slt.yml
+
+format:
+  html:
+    link-external-newwindow: true
+---
+
+### Developers
+:::{#team-member}
+:::
+
+### Programme Team
+:::{#prog-member}
+:::

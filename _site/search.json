@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "The Blog",
+    "section": "",
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nFeb 20, 2025\n\n\nPost With Code\n\n\nHarlow Malloc\n\n\n\n\nFeb 17, 2025\n\n\nWelcome To My Blog\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/londonsde-omop/index.html",
+    "href": "projects/londonsde-omop/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "projects/flip/index.html",
+    "href": "projects/flip/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "projects/londonsde-phm/index.html",
+    "href": "projects/londonsde-phm/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "projects/genomicsai/index.html",
+    "href": "projects/genomicsai/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "projects/haystack/index.html",
+    "href": "projects/haystack/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Our People",
+    "section": "",
+    "text": "Developers\n\n\n\n\n\n\n\n\n\n\nDr. Alex Triay Bagur\n\n\nSenior AI Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Amanda Kiemes\n\n\nSenior Data Analyst\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Anthony Shek\n\n\nLead NLP Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Dan Stein\n\n\nClinical Data Science Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Emily Jin\n\n\nSenior Data Scientist\n\n\n\n\n\n\n\n\n\n\n\n\n\nHaleema Drake\n\n\nLead Data Engineer (Multi-Modal)\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Isobel Weinberg\n\n\nPopulation Health Science Lead\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Jasjot Saund\n\n\nClinical Data Science Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Joe Zhang\n\n\nHead of Data Science\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Lawrence Adams\n\n\nLead Analytics Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\nMac Fernandes\n\n\nData Engineer / Analyst\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Marc Modat\n\n\nCRIO\n\n\n\n\n\n\n\n\n\n\n\n\n\nNathan Pinnock\n\n\nData Scientist\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Paul Wright\n\n\nImaging Data Lead\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Rafael Garcia-Dias\n\n\nSenior AI Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\nSophie Ratkai\n\n\nClinical Scientist Lead (Genomics AI)\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteph Jones\n\n\nSenior Analytics Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Teddy Hla\n\n\nClinical Data Science Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Virginia Fernandez\n\n\nSenior AI Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\nVitaliy Oliynyk\n\n\nSenior Developer\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nProgramme Team\n\n\n\n\n\n\n\n\n\n\nProf. James Teo\n\n\nCMO\n\n\n\n\n\n\n\n\n\n\n\n\n\nJawad Chaudhry\n\n\nProgramme Manager\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Jorge Cardoso\n\n\nCTO\n\n\n\n\n\n\n\n\n\n\n\n\n\nLisa Law\n\n\nAssociate Project Manager\n\n\n\n\n\n\n\n\n\n\n\n\n\nProf. Seb Ourselin\n\n\nAI Centre Director\n\n\n\n\n\n\n\n\n\n\n\n\n\nSigal Hachlili\n\n\nCOO\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nothing is impossible",
+    "section": "",
+    "text": "We are the AI Centre for Value-Based Healthcare (or ‘London AI Centre’) - a consortium of NHS organisations, universities, and commercial partners. Our team delivers national technology programmes (including in OneLondon, the London Secure Data Environment, and the National Genomics AI Network), and undertakes strategic commercial partnerships in multi-modal data and AI. This website brings the latest updates from our developers.\n      \n\nPhilosophy\nWorking within the NHS, and directly with source data systems and deployment infrastructure, gives us unprecedented capabilities for building effective and clinically valid solutions across the entire data-driven vertical. Innovation within clinical environments and systems = maximising the value of NHS data for patients and for the healthcare system.\nThe latest updates\n\n\nProjects\nWe make deep multi-modal data available at population scale, and use it to conduct applied biomedical, clinical, and AI research. We build data-driven products and pathways on top of the most comprehensive data available in the NHS.\nLearn more\n\n–&gt;"
+  }
+]
