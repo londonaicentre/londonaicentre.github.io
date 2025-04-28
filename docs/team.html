@@ -78,41 +78,13 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-description","listing-firstname","listing-categories"],
+      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-firstname","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-team-member'] = new List('listing-team-member', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-prog-member .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-description","listing-firstname","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-prog-member'] = new List('listing-prog-member', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -159,7 +131,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -182,10 +154,6 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog.html"> 
@@ -223,16 +191,14 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(26)</span></div><div class="category" data-category="Multi-Modal Data">Multi-Modal Data <span class="quarto-category-count">(8)</span></div><div class="category" data-category="NLP &amp; Analytics">NLP &amp; Analytics <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Population Health">Population Health <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Programme &amp; SLT">Programme &amp; SLT <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Real-World Data">Real-World Data <span class="quarto-category-count">(8)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Our People</h1>
-<p class="subtitle lead">Our engineers, scientists, and clinician data SMEs drive advancements through deep domain knowledge and incredible technical expertise</p>
+<p class="subtitle lead">Our engineers and scientists drive advancements through deep domain knowledge and technical expertise</p>
 </div>
 
 
@@ -249,463 +215,309 @@ window.Quarto = {
 </header>
 
 
-<section id="developers" class="level3">
-<h3 class="anchored" data-anchor-id="developers">Developers</h3>
-<div id="listing-team-member" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="Multi-Modal Data">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/abagur.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Alex Triay Bagur</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Senior AI Engineer
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="NLP &amp; Analytics">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/akiemes.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Amanda Kiemes</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Senior Data Analyst
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="NLP &amp; Analytics">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/ashek.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Anthony Shek</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Lead NLP Engineer
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Population Health">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/dstein.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Dan Stein</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Clinical Data Science Fellow
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Real-World Data">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/ejin.jpg" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Emily Jin</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Senior Data Scientist
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Multi-Modal Data">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/hdrake.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Haleema Drake</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Lead Data Engineer (Multi-Modal)
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="Population Health">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/iweinberg.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Isobel Weinberg</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Population Health Science Lead
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="Population Health">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/jsaund.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Jasjot Saund</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Clinical Data Science Fellow
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="Programme &amp; SLT,Real-World Data,Multi-Modal Data,NLP &amp; Analytics,Population Health">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/jzhang.jpg" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Joe Zhang</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Head of Data Science
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="Real-World Data,Population Health">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/ladams.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Lawrence Adams</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Lead Analytics Engineer
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="Real-World Data">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/mac.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Mac Fernandes</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Data Engineer / Analyst
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="Programme &amp; SLT,Multi-Modal Data">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/mmodat.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Marc Modat</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-CRIO
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="12" data-categories="NLP &amp; Analytics">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/npinnock.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Nathan Pinnock</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Data Scientist
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="13" data-categories="Multi-Modal Data">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/pwright.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Paul Wright</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Imaging Data Lead
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="14" data-categories="Multi-Modal Data">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/rdias.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Rafael Garcia-Dias</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Senior AI Engineer
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="15" data-categories="Real-World Data">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/sratkai.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Sophie Ratkai</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Clinical Scientist Lead (Genomics AI)
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="16" data-categories="Real-World Data">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/sjones.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Steph Jones</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Senior Analytics Engineer
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="17" data-categories="Real-World Data">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/thla.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Teddy Hla</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Clinical Data Science Fellow
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="18" data-categories="Multi-Modal Data">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/vfernandez.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Virginia Fernandez</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Senior AI Engineer
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="19" data-categories="NLP &amp; Analytics">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/voliynyk.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Vitaliy Oliynyk</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Senior Developer
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="programme-team" class="level3">
-<h3 class="anchored" data-anchor-id="programme-team">Programme Team</h3>
-<div id="listing-prog-member" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="Programme &amp; SLT,NLP &amp; Analytics,Population Health,Real-World Data">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/jteo.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Prof.&nbsp;James Teo</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-CMO
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Programme &amp; SLT">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/jch.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Jawad Chaudhry</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Programme Manager
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Programme &amp; SLT,Multi-Modal Data">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/jcardoso.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Dr.&nbsp;Jorge Cardoso</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-CTO
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Programme &amp; SLT">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/llaw.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Lisa Law</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-Associate Project Manager
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Programme &amp; SLT">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/sourselin.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Prof.&nbsp;Seb Ourselin</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-AI Centre Director
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Programme &amp; SLT">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./people/pics/shachlili.png" class="thumbnail-image card-img" style="height: 160px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<strong>Sigal Hachlili</strong>
-</h5>
-<div class="card-subtitle listing-subtitle">
-COO
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
+<div id="listing-team-member" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+</th>
+<th>
+Name
+</th>
+<th>
+Area(s)
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-title-sort="**Dr. Alex Triay Bagur**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/abagur.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Alex Triay Bagur</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Senior AI Engineer</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-title-sort="**Dr. Amanda Kiemes**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/akiemes.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Amanda Kiemes</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">NLP/Data Analyst</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-title-sort="**Dr. Anthony Shek**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/ashek.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Anthony Shek</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Lead NLP Engineer, NLP &amp; Analytics Lead</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-title-sort="**Dr. Dan Stein**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/dstein.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Dan Stein</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Clinical Data Scientist, Medical Doctor</span>
+</td>
+</tr>
+<tr data-index="4" data-listing-title-sort="**Dr. Emily Jin**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/ejin.jpg" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Emily Jin</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Senior Data Scientist, Product Owner, Medical Doctor</span>
+</td>
+</tr>
+<tr data-index="5" data-listing-title-sort="**Haleema Drake**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/hdrake.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Haleema Drake</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Lead Multi-Modal Data Engineer</span>
+</td>
+</tr>
+<tr data-index="6" data-listing-title-sort="**Dr. Isobel Weinberg**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/iweinberg.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Isobel Weinberg</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Lead Data Scientist, Population Health Science Lead, Medical Doctor</span>
+</td>
+</tr>
+<tr data-index="7" data-listing-title-sort="**Prof. James Teo**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/jteo.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Prof.&nbsp;James Teo</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Chief Medical Officer, Professor of Neurology</span>
+</td>
+</tr>
+<tr data-index="8" data-listing-title-sort="**Dr. Jasjot Saund**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/jsaund.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Jasjot Saund</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Clinical Data Scientist, Medical Doctor</span>
+</td>
+</tr>
+<tr data-index="9" data-listing-title-sort="**Jawad Chaudhry**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/jch.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Jawad Chaudhry</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">AI Centre Programme Manager</span>
+</td>
+</tr>
+<tr data-index="10" data-listing-title-sort="**Dr. Joe Zhang**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/jzhang.jpg" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Joe Zhang</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Head of Data Science, AIC/SDE Technical Lead, Medical Doctor</span>
+</td>
+</tr>
+<tr data-index="11" data-listing-title-sort="**Dr. Jorge Cardoso**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/jcardoso.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Jorge Cardoso</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Reader (Medical AI) @ KCL</span>
+</td>
+</tr>
+<tr data-index="12" data-listing-title-sort="**Dr. Lawrence Adams**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/ladams.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Lawrence Adams</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Lead Analytics Engineer, Real-World Data Lead, Medical Doctor</span>
+</td>
+</tr>
+<tr data-index="13" data-listing-title-sort="**Lisa Law**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/llaw.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Lisa Law</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">AI Centre Project Manager</span>
+</td>
+</tr>
+<tr data-index="14" data-listing-title-sort="**Mac Fernandes**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/mac.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Mac Fernandes</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Data Engineer</span>
+</td>
+</tr>
+<tr data-index="15" data-listing-title-sort="**Dr. Marc Modat**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/mmodat.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Marc Modat</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Reader (Computational Imaging) @ KCL</span>
+</td>
+</tr>
+<tr data-index="16" data-listing-title-sort="**Nathan Pinnock**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/npinnock.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Nathan Pinnock</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">NLP/Data Analyst</span>
+</td>
+</tr>
+<tr data-index="17" data-listing-title-sort="**Dr. Paul Wright**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/pwright.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Paul Wright</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Imaging Data Lead</span>
+</td>
+</tr>
+<tr data-index="18" data-listing-title-sort="**Dr. Rafael Garcia-Dias**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/rdias.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Rafael Garcia-Dias</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Senior AI Engineer</span>
+</td>
+</tr>
+<tr data-index="19" data-listing-title-sort="**Prof. Seb Ourselin**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/sourselin.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Prof.&nbsp;Seb Ourselin</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Director @ AI Centre / LIHE, Head of School @ KCL</span>
+</td>
+</tr>
+<tr data-index="20" data-categories="Programme &amp; SLT" data-listing-title-sort="**Sigal Hachlili**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/shachlili.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Sigal Hachlili</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Director of Data, AI, Digital @ GSTT</span>
+</td>
+</tr>
+<tr data-index="21" data-listing-title-sort="**Sophie Ratkai**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/sratkai.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Sophie Ratkai</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Genomics AI Lead, Clinical Scientist</span>
+</td>
+</tr>
+<tr data-index="22" data-listing-title-sort="**Steph Jones**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/sjones.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Steph Jones</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Senior Data Engineer, Clinical Pharmacist</span>
+</td>
+</tr>
+<tr data-index="23" data-listing-title-sort="**Dr. Teddy Hla**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/thla.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Teddy Hla</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Clinical Data Scientist, Medical Doctor</span>
+</td>
+</tr>
+<tr data-index="24" data-listing-title-sort="**Dr. Virginia Fernandez**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/vfernandez.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Dr.&nbsp;Virginia Fernandez</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Senior AI Engineer</span>
+</td>
+</tr>
+<tr data-index="25" data-listing-title-sort="**Vitaliy Oliynyk**">
+<td>
+<span class="listing-image"><img loading="lazy" src="./people/pics/voliynyk.png" style="height: 0px;"></span>
+</td>
+<td>
+<span class="listing-title"><strong>Vitaliy Oliynyk</strong></span>
+</td>
+<td>
+<span class="listing-subtitle">Senior Developer</span>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -713,7 +525,6 @@ No matching items
 
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

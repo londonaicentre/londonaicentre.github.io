@@ -17,20 +17,9 @@ about:
     - icon: info-circle-fill
       text: Website
       href: https://www.aicentre.co.uk/
-# listing:
-# - id: team-member
-#   sort: "lastname asc"
-#   type: grid
-#   fields: [image, title, subtitle, description]
-#   grid-item-align: left
-#   grid-columns: 4
-#   image-height: 150px
-#   categories: true
-#   contents:
-#     - /people/active.yml
 ---
 
-We are the **AI Centre for Value-Based Healthcare** (or 'London AI Centre') - a consortium of NHS organisations, universities, and commercial partners. Our team delivers national technology programmes (including in OneLondon, the London Secure Data Environment, and the National Genomics AI Network), and undertakes strategic commercial partnerships in multi-modal data and AI. This website brings the latest [updates](blog.qmd) from our developers.
+We are the **AI Centre for Value-Based Healthcare** (or 'London AI Centre') - a consortium of NHS organisations, universities, and commercial partners. Our team delivers national technology and research programmes (including in OneLondon, the London Secure Data Environment, and the Genomics AI Network), and undertakes strategic commercial partnerships in multi-modal data and AI. This is our blog, bringing the latest updates from our developers.
 
 ![](logos/onelondon.png){width=150}&nbsp;&nbsp;&nbsp;![](logos/sde.png){width=130}&nbsp;&nbsp;&nbsp;![](logos/gain.jpeg){width=150}
 
@@ -38,12 +27,10 @@ We are the **AI Centre for Value-Based Healthcare** (or 'London AI Centre') - a 
 
 Working within the NHS, and directly with source data systems and deployment infrastructure, gives us **unprecedented capabilities** for building effective and clinically valid solutions across the entire data-driven vertical. Innovation within clinical environments and systems = maximising the value of NHS data for patients and for the healthcare system.
 
-[The latest updates](blog.qmd)
+[See active projects on the official website](https://www.aicentre.co.uk/)
 
-### Projects
+### Blog
 
 We make **deep multi-modal data** available at population scale, and use it to conduct applied biomedical, clinical, and AI research. We build data-driven products and pathways on top of the most comprehensive data available in the NHS.
 
-[Learn more](projects.qmd)
-
-<!-- :::{#team-member} --> -->
+[The latest from our developers](blog.qmd)
